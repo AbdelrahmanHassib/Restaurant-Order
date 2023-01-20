@@ -1,0 +1,63 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <!-- Google Font -->
+       <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Smythe&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h2>Jimmy’s Diner</h2>
+            </h2>The best burgers and pizzas in town.</h2>
+        </header>
+        <section>
+            <div class="buy-section">
+                <div class="emoji">🍕</div>
+                <div class="item-details-container">
+                    <h4>Pizza</h4>
+                    <p>pepperoni,mushrom,mozarella</p>
+                    <h5>$14</h5>
+                </div>
+                <button id="add-pizza" class="add-btn">+</button>
+            </div>
+            <div class="buy-section">
+                <div class="emoji">🍔</div>
+                <div class="item-details-container">
+                    <h4>Hamburger</h4>
+                    <p>beef, cheese, lettuce</p>
+                    <h5>$12</h5>
+                </div>
+                <button id="add-burger" class="add-btn">+</button>
+            </div>
+            <div class="buy-section">
+                <div class="emoji">🍺</div>
+                <div class="item-details-container">
+                    <h4>Beer</h4>
+                    <p>grain, hops, yeast, water</p>
+                    <h5>$12</h5>
+                </div>
+                <button id="add-beer" class="add-btn">+</button>
+            </div>
+        </section>
+        <section id="checkout" class="checkout hidden">
+            <h3 id="title">Your Order</h3>
+            <div id="checkout-line"></div>
+            <div id="border"></div>
+            <div id="checkout-total-price-flex">
+            <h3 id="total-price"></h3>
+            <h5 id="total-price-h5"></h5>
+            </div>
+            <button id="complete-order-btn">Complete Order</button>
+        </section>
+        <form id="credit-card-form" class="hidden">
+            <h3>Enter card details</h3>
+            <div id="form-inputs">
+                <input type="text"/ placeholder="Enter your name">
+                <input type="number" placeholder="Enter card number"/>
+                <input type="number" placeholder="Enter CVV"/>
+            </div>
+            <button id="pay-btn">Pay</button>
+        </form>
+	<script src="index.js"></script>
+    </body>
+</html>
+

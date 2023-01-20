@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    background: #F5F5F5;
+    font-family: 'Smythe', 'Source Sans Pro', cursive, sans-serif;
+    font-size: 25px;
+}
+
+header {
+    background-image: url("./images/restaurant-solo-project.png");
+    background-size: cover;
+    background-position: right;
+    padding: 20px 0 60px 46px;
+    color: #FFFFFF;
+    width: 600px;
+    margin: 0 auto;
+    text-shadow: 2px 2px 5px black;
+}
+
+section {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 0 0 46px;
+}
+
+.buy-section {
+    display: flex;
+    column-gap: 30px;
+    align-items: top;
+    height: 130px;
+    border-bottom: 1px solid #D2D2D2;
+    margin-top: 40px;
+}
+
+.emoji {
+    font-size: 78px;
+}
+
+.add-btn {
+    color: #3C3C3C;
+    background: inherit;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.item-details-container {
+    font-size: 30px;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+    font-size: 25px;
+    margin: 0 0 10px;
+    color: #8B8B8B;
+}
+
+h5 {
+    margin-top: 0;
+}
+
+span {
+    color: #BBBBBB;
+    align-self: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+.price-align {
+    margin-left: auto;
+}
+
+#title {
+    margin: 0 auto 46px;
+}
+
+.checkout {
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+.checkout-flex {
+    display: flex;
+    column-gap: 15px;
+    margin: 10px 0;
+}
+
+#border {
+    border: 2px solid #393333;
+    margin: 20px 0 10px;
+}
+
+#complete-order-btn {
+    margin: 20px 0;
+    /* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); */
+    background: #16DB99;
+    border-radius: 3px;
+    height: 60px;
+    border: none;
+    color: #FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    background: #FFFFFF;
+    align-items: center;
+    padding: 50px 30px 10px;
+}
+
+#form-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 75%
+}
+
+#pay-btn {
+    background: #16DB99;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    margin: 60px auto 30px;
+    height: 60px;
+    width: 75%;
+}
+
+input {
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-size: 20px;
+}
+
+#checkout-h3 {
+    background: #ECFDF5;
+    color: #065F46;
+    text-align: center;
+    padding: 30px;
+}
+
+#checkout-total-price-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#total-price-h5 {
+    font-size: 30px;
+}
